@@ -20,7 +20,8 @@ public class TestSample {
 	public void testloginpagetitle()
 	{
 		String actualtitle = driver.getTitle();
-		String Expectedtitle = "Jobs - Recruitment - Job Search - Employment - Job Vacancies - Naukri.com";
+		System.out.println(actualtitle);
+		String Expectedtitle = "actiTIME - Login";
 Assert.assertEquals(actualtitle, Expectedtitle);
 		}
 	@AfterMethod

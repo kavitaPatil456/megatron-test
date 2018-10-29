@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.megatron.test.smoke.TestSample">
+      <class name="com.megatron.test.regression.TestLoginU13856">
         <methods>
-          <include name="testloginpagetitle"/>
-          <include name="postcondition"/>
+          <include name="testlogininvalidTC156786"/>
           <include name="precondition"/>
+          <include name="postcondition"/>
         </methods>
-      </class> <!-- com.megatron.test.smoke.TestSample -->
+      </class> <!-- com.megatron.test.regression.TestLoginU13856 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

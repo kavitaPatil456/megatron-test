@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29356" started-at="2018-10-03T06:17:24Z" finished-at="2018-10-03T06:17:54Z">
+  <suite name="Default suite" duration-ms="20496" started-at="2018-10-29T05:08:24Z" finished-at="2018-10-29T05:08:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29356" started-at="2018-10-03T06:17:24Z" finished-at="2018-10-03T06:17:54Z">
-      <class name="com.megatron.test.smoke.TestSample">
-        <test-method status="PASS" signature="precondition()[pri:0, instance:com.megatron.test.smoke.TestSample@14acaea5]" name="precondition" is-config="true" duration-ms="29294" started-at="2018-10-03T11:47:24Z" finished-at="2018-10-03T11:47:54Z">
+    <test name="Default test" duration-ms="20496" started-at="2018-10-29T05:08:24Z" finished-at="2018-10-29T05:08:44Z">
+      <class name="com.megatron.test.regression.TestLoginU13856">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.megatron.test.regression.TestLoginU13856@1d057a39]" name="precondition" is-config="true" duration-ms="15299" started-at="2018-10-29T10:38:24Z" finished-at="2018-10-29T10:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method status="PASS" signature="testloginpagetitle()[pri:0, instance:com.megatron.test.smoke.TestSample@14acaea5]" name="testloginpagetitle" duration-ms="25" started-at="2018-10-03T11:47:54Z" finished-at="2018-10-03T11:47:54Z">
+        <test-method status="PASS" signature="testlogininvalidTC156786()[pri:0, instance:com.megatron.test.regression.TestLoginU13856@1d057a39]" name="testlogininvalidTC156786" duration-ms="2846" started-at="2018-10-29T10:38:39Z" finished-at="2018-10-29T10:38:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testloginpagetitle -->
-        <test-method status="PASS" signature="postcondition()[pri:0, instance:com.megatron.test.smoke.TestSample@14acaea5]" name="postcondition" is-config="true" duration-ms="1" started-at="2018-10-03T11:47:54Z" finished-at="2018-10-03T11:47:54Z">
+        </test-method> <!-- testlogininvalidTC156786 -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:com.megatron.test.regression.TestLoginU13856@1d057a39]" name="postcondition" is-config="true" duration-ms="2326" started-at="2018-10-29T10:38:42Z" finished-at="2018-10-29T10:38:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-      </class> <!-- com.megatron.test.smoke.TestSample -->
+      </class> <!-- com.megatron.test.regression.TestLoginU13856 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
